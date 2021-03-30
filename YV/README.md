@@ -4,8 +4,7 @@
 
 - Javascript 알고리즘 실행방법
 
-  ```javascript
-  node ~ 파일명
-  ```
+```javascript
+node ~ 파일명
+```
 
-  
