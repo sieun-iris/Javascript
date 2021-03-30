@@ -1,8 +1,34 @@
-# commit 규칙
+# Commit 규칙
 
-추후 업데이트
+1. 문제 풀이 성공
 
+   ```bash
+   git commit -m '[Pass] 문제 사이트_문제 번호 문제 이름'
+   
+   예) git commit -m '[Pass] boj_2571 수 정렬하기2'
+   ```
 
+2. 문제 풀이 실패
+
+   ```bash
+   git commit -m '[Fail] 문제 사이트_문제 번호 문제 이름'
+   ```
+
+3. 런타임 에러
+
+   ```bash
+   git commit -m '[Runtime-error] 문제 사이트_문제 번호 문제 이름'
+   ```
+
+4. 진행중
+
+   ```bash
+   git commit -m '[Ongoing] 문제 사이트_문제 번호 문제 이름'
+   ```
+
+<br>
+
+<br>
 
 # Javascript
 
@@ -10,7 +36,7 @@
 
 node + 파일이름.js
 
-
+<br>
 
 ## 텍스트 파일 읽기
 
@@ -50,7 +76,7 @@ console.log(c)
 
 
 
-
+<br>
 
 ## 입력 참고
 
@@ -83,7 +109,7 @@ var input = fs
   })
 ```
 
-
+<br>
 
 ## 함수 참고
 
