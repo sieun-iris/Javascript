@@ -26,6 +26,14 @@
    git commit -m '[Ongoing] 문제 사이트_문제 번호 문제 이름'
    ```
 
+5. 코드 참고
+
+   ```bash
+   git commit -m '[Study] 문제 사이트_문제 번호 문제 이름'
+   ```
+
+   
+
 <br>
 
 <br>
@@ -34,7 +42,11 @@
 
 ## js파일 로컬 실행
 
+```bash
 node + 파일이름.js
+```
+
+
 
 <br>
 
