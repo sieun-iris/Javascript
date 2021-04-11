@@ -12,10 +12,10 @@ for (let i = 1; i <= input; i++) {
 }
 
 function check(number) {
-    let a = String(number).split('')
+    let a = String(number).split('')  
     let result = []
     for (let i in a) {
-        if (i < a.length - 1) {
+        if (i < a.length - 1) { 
             result.push(Number(a[Number(i)]) - Number(a[Number(i)+1]))
         }
     }
