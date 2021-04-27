@@ -114,7 +114,7 @@ false
 
 > 함수 선언 시 function 키워드와 중괄호를 생략하기 위해 고안된 단축 문법
 
-![image-20210415222700752](C:/Users/sieun/Desktop/p-Javascript/SE/README.assets/image-20210415222700752.png)
+![image-20210415222700752](C:/Users/sieun/Desktop/p-Javascript/SE/0. JS 문법 정리/README.assets/image-20210415222700752.png)
 
 <br>
 
