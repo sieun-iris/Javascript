@@ -354,7 +354,55 @@ arr.sort(function (a, b){
 
 
 
+## concat
+
+> 인자로 주어진 배열이나 값들을 기존 배열에 합쳐서 새 배열을 반환
+
+```javascript
+const array1 = ['a', 'b', 'c'];
+const array2 = ['d', 'e', 'f'];
+const array3 = array1.concat(array2);
+
+console.log(array3);
+// expected output: Array ["a", "b", "c", "d", "e", "f"]
+```
 
 
 
+- 배열 두 개 이어붙이기
 
+```javascript
+const alpha = ['a', 'b', 'c'];
+const numeric = [1, 2, 3];
+
+alpha.concat(numeric);
+// 결과: ['a', 'b', 'c', 1, 2, 3]
+```
+
+
+
+- 배열 세 개 이어붙이기
+
+```javascript
+const num1 = [1, 2, 3];
+const num2 = [4, 5, 6];
+const num3 = [7, 8, 9];
+
+num1.concat(num2, num3);
+// 결과: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+
+
+- 배열에 값 이어붙이기
+
+```javascript
+const alpha = ['a', 'b', 'c'];
+
+alpha.concat(1, [2, 3]);
+// 결과: ['a', 'b', 'c', 1, 2, 3]
+```
+
+
+
+출처: https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
