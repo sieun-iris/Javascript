@@ -1,20 +1,29 @@
-const fs = require('fs');
-let input = fs.readFileSync('15552.txt').toString().split('\r\n');
+// const fs = require('fs');
+// let input = fs.readFileSync('15552.txt').toString().split('\r\n');
 
-const N = input.shift()
-for (let i of input) {
-    let tc = i.split(" ")
-    console.log(Number(tc[0]) + Number(tc[1]))
-}
-
-
-// 참고
-// let max = Number(input[0]);
-// let answer = '';
-
-// for (let i = 1; i <= max; i++) {
-//     let num = input[i].split(' ');
-//     answer += Number(num[0]) + Number(num[1]) + "\n";
+// const N = input.shift()
+// for (let i of input) {
+//     let tc = i.split(" ")
+//     console.log(Number(tc[0]) + Number(tc[1]))
 // }
 
-// console.log(answer);
+
+const readline = require('15552.txt');   // readline
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+let answer = '';
+rl.on('line', line => {
+  const input = line.split(' ');
+
+  if(input.length === 2) {
+    const A = parseInt(input[0]);
+    const B = parseInt(input[1]);
+    answer += A+B + '\n';
+  }
+}).on('close', () => {
+  console.log(answer);
+  process.exit();
+})

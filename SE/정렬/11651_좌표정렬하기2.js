@@ -1,9 +1,9 @@
 const fs = require('fs');
 // let input = fs.readFileSync('7568.txt').toString().split('\r\n');
 
-const [N, ...arr] = require("fs").readFileSync("11651.txt").toString().trim().split("\r\n");
+const [N, ...input] = require("fs").readFileSync("11651.txt").toString().trim().split("\r\n");
 
-const input = ['0 4', '1 2', '1 -1', '2 2', '3 3'];
+// const input = ['0 4', '1 2', '1 -1', '2 2', '3 3'];
 
 const coordsArr = [];
 

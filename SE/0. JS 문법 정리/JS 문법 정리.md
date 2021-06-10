@@ -182,6 +182,20 @@ console.log(rest); // ["DOG", "TIGER"]
 
 
 
+## 배열의 최대, 최소값
+
+- 전개 연산자를 활용한 배열의 최대, 최소값 구하기
+
+```javascript
+const arr = [1, 2, 3, 4, 5];
+const maxValue = Math.max(...arr);
+const minValue = Math.min(...arr);
+```
+
+
+
+
+
 ### Object
 
 기존 객체의 경우
@@ -351,6 +365,25 @@ arr.sort(function (a, b){
 
 // 결과: [222, 111, 10, 4, 3, 1]
 ```
+
+
+
+
+
+## indexOf
+
+배열에 없는 값을 찾으려고 하면, -1 출력
+
+```javascript
+let a = [2, 5, 8, 10]
+
+console.log(a.indexOf(8))  // 2
+console.log(a.indexOf(7))  // -1
+```
+
+
+
+
 
 
 
